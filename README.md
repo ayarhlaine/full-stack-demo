@@ -1,8 +1,9 @@
 # full-stack-demo
 
-A demo app with NodeJS + React + PostgreSQL.
+A demo full stack app with NodeJS + React + PostgreSQL.
 
-## Backend Development Guide
+## Backend
+### Development Guide
 
 #### With Docker
 
@@ -17,4 +18,12 @@ then run
 
 ```
 docker exec -it full-stack-demo-dev /bin/sh
+npm run dev
+```
+
+### Tests
+#### Unit Test
+Run
+```
+npm run test:unit
 ```
